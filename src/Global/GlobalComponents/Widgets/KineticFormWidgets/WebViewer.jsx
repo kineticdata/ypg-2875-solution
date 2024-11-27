@@ -65,9 +65,9 @@ const WebViewerComponent = ({ values, triggerField, signatureField }) => {
 
       // After the annotations are loaded
       documentViewer.addEventListener('annotationsLoaded', () => {
-        // Close the signature panel and fit the PDF to width.
+        // Close the signature panel and set the view width.
         instance.UI.closeElements([ 'signatureListPanel' ]);
-        instance.UI.setFitMode(FitMode.FitWidth);
+        instance.UI.setFitMode(FitMode.FitToWidth);
         
         const fieldManager = annotationManager.getFieldManager();
 
