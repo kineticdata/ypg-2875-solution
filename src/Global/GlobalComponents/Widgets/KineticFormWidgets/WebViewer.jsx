@@ -56,7 +56,7 @@ const WebViewerComponent = ({ values, triggerField, signatureField }) => {
       {
         path: '/webviewer/lib',
         initialDoc: '/files/FormDD2875.pdf',
-        licenseKey: 'demo:1731530825801:7efb63f40300000000b8d4474598019fd040ec88b769e031fb97199dad',  // sign up to get a free trial key at https://dev.apryse.com
+        licenseKey: 'DEMO_KEY',  // sign up to get a free trial key at https://dev.apryse.com
       },
       viewer.current,
     ).then((instance) => {
