@@ -20,7 +20,6 @@
     "@mui/material": "^5.16.7",
     "@mui/x-data-grid": "^7.13.0",
     "@pdftron/webviewer": "^11.0.0",
-    "@seal/sdk": "file:vendor/seal-sdk-0.8.0.tgz",
     "@toast-ui/react-editor": "^3.2.3",
     "jquery": "^3.5.0",
     "line-awesome": "^1.3.0",
@@ -33,11 +32,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
     "react-scripts": "^5.0.1",
-    "sass": "^1.63.6"
-  },
-  "resolutions": {
-    "@seal/common": "file:vendor/seal-common-0.0.1.tgz",
-    "@seal/sdk": "file:vendor/seal-sdk-0.0.1.tgz"
+    "sass": "^1.63.6",
+    "@seal/sdk": "file:vendor/seal-sdk-0.8.0.tgz"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",

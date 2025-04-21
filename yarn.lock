@@ -2398,21 +2398,9 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.7.0.tgz#b5bc1e081428794f6a4d239707b359404be35ce2"
   integrity sha512-Jh4t/593gxs0lJZ/z3NnasKlplXT2f+4y/LZYuaKZW5KAaiVFL/fThhs+17EbUd53jUVJ0QudYCBGbN/psvaqg==
 
-"@seal/common@0.0.1", "@seal/common@file:vendor/seal-common-0.0.1.tgz":
-  version "0.0.1"
-  resolved "file:vendor/seal-common-0.0.1.tgz#9904c69e03bd24d9121140f4d3666025465231a7"
-
-"@seal/sdk@file:vendor/seal-sdk-0.0.1.tgz":
-  version "0.0.1"
-  resolved "file:vendor/seal-sdk-0.0.1.tgz#f401b9a07032a147dd76fa77e6e393f5da5815fd"
-  dependencies:
-    "@seal/common" "0.0.1"
-    "@types/chrome" "*"
-    "@webext-core/messaging" "*"
-
 "@seal/sdk@file:vendor/seal-sdk-0.8.0.tgz":
   version "0.8.0"
-  resolved "file:vendor/seal-sdk-0.8.0.tgz#89467269b374e427c5160ea78d4a3f3e1cee4e2a"
+  resolved "file:vendor/seal-sdk-0.8.0.tgz#02a72d251d20f2b5be77db5b0361940396ac5511"
   dependencies:
     "@types/chrome" "*"
     "@webext-core/messaging" "*"
@@ -2629,9 +2617,9 @@
     "@types/node" "*"
 
 "@types/chrome@*":
-  version "0.0.309"
-  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.309.tgz#f9c33cec6238bae63e4a5b5e2acd8a8d54ff360a"
-  integrity sha512-ZFADzcp8b+roUrux68U8pti4cmNOLJXWkShk8lfxj9SBcjYqpJt7NypBprSJUJDJVakGZgd2Tt00QePIGh7oPA==
+  version "0.0.315"
+  resolved "https://registry.yarnpkg.com/@types/chrome/-/chrome-0.0.315.tgz#3d315d996c31ec5cef53c726ce2f893187ce8710"
+  integrity sha512-Oy1dYWkr6BCmgwBtOngLByCHstQ3whltZg7/7lubgIZEYvKobDneqplgc6LKERNRBwckFviV4UU5AZZNUFrJ4A==
   dependencies:
     "@types/filesystem" "*"
     "@types/har-format" "*"

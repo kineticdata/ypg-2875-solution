@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import WebViewer from '@pdftron/webviewer';
 import axios from 'axios';
-import { Seal } from '@seal/sdk';
+import { identify, sign } from '@seal/sdk';
 
 const WebViewerComponent = ({ values, triggerField, signatureField }) => {
   // Log the parameters passed in from the Form script
@@ -85,9 +85,7 @@ const WebViewerComponent = ({ values, triggerField, signatureField }) => {
           await PDFNet.initialize();
           await PDFNet.runWithCleanup(async () => {
             try {
-              const seal = Seal.getInstance();
-
-              const identifyResult = await seal.identify({});
+              const identifyResult = await identify({});
 
               const pdfDoc = await PDFNet.PDFDoc.createFromBuffer(
                 new Uint8Array(data),
@@ -173,7 +171,7 @@ const WebViewerComponent = ({ values, triggerField, signatureField }) => {
                   signedAttrs,
                 );
 
-              const signatureResult = await seal.sign({
+              const signatureResult = await sign({
                 subject: signerSubject,
                 buffer: signedAttrsDigest,
               });
